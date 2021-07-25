@@ -1,0 +1,133 @@
+
+.detail-top-tour {
+    margin-bottom: 30px;
+    h1 {
+        font-weight: 700;
+        font-size: 32px;
+        font-family: 'Barlow';
+    }
+}
+.fancy-gall {
+    .row {
+        margin: 0 -6px;
+        >div {
+            padding: 6px;
+        }
+    }
+}
+.item-fan {
+    position: relative;
+    overflow: hidden;
+    img {
+        height: 80px;
+        object-fit: cover;
+        transition: .4s all !important;
+        &:hover {
+            transform: scale(1.04);
+        }
+    }
+    a {
+        display: block;
+        position: relative;
+    }
+    span {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+        top: 0;
+        left: 0;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 28px;
+        font-weight: 700;
+        font-family: 'Barlow';
+        padding: 10px;
+        pointer-events: none;
+    }
+}
+.preview {
+    .avarta {
+        padding: 6px 0;
+    }
+}
+.desc-tour-detail {
+    padding: 30px 0 50px 0;
+    p {
+        margin-bottom: 15px;
+    }
+}
+.info-preview {
+    font-size: 18px;
+    font-family: 'Barlow';
+    font-weight: 400;
+    p {
+        font-weight: 600;
+    }
+    .price {
+        font-size: 32px;
+        font-weight: 700;
+        color: #FF710F;
+        padding: 0 0 5px 0;
+    }
+    ul {
+        list-style: none;
+        li {
+            margin-bottom: 8px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            strong {
+                font-weight: 600;
+            }
+        }
+    }
+}
+.btn-book-tour {
+    padding-top: 20px;
+    a {
+        background: #FF710F;
+        font-weight: 700;
+        color: #fff;
+        border: 1px solid #FF710F;
+        padding: 0 60px;
+        height: 48px;
+        display: inline-flex;
+        align-items: center;
+        &:hover {
+            color: #FF710F;
+            background: #fff;
+        }
+    }
+}
+.list-tab {
+    padding: 28px 0;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 35px;
+    font-size: 18px;
+    font-weight: 700;
+    li {
+        padding-right: 25px;
+        &:last-child {
+            padding-right: 0;
+        }
+    }
+    a {
+        color: #979797;
+        &.active, &:hover {
+            color: #1C82EB;
+        }
+    }
+}
+.content-tab-detail {
+    padding-bottom: 50px;
+}
+.tab-content {
+    display: none;
+    &.active {
+        display: block;
+    }
+}
